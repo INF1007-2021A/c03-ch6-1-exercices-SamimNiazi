@@ -42,11 +42,13 @@ def contains_doubles(items: list) -> bool:
 
 def best_grades(student_grades: dict) -> dict:
     # TODO: Retourner un dictionnaire contenant le nom de l'étudiant ayant la meilleure moyenne ainsi que sa moyenne
-    return {}
+    print (student_grades.values)
+    return 
 
 
 def frequence(sentence: str) -> dict:
     # TODO: Afficher les lettres les plus fréquentes
+
     #       Retourner le tableau de lettres
 
     return {}
@@ -54,11 +56,17 @@ def frequence(sentence: str) -> dict:
 
 def get_recipes():
     # TODO: Demander le nom d'une recette, puis ses ingredients et enregistrer dans une structure de données
-    pass
-
+    dict = {}
+    (recette, ingrédients) = (input("Entrez votre recette"), input ("Entrez les ingrédients"))
+    dict[recette] = ingrédients
 
 def print_recipe(ingredients) -> None:
     # TODO: Demander le nom d'une recette, puis l'afficher si elle existe
+    recherche = input("Entrer le nom de la recette")
+    if recherche in dict:
+        print (dict.get (recherche))
+    else:
+        print ("Cette recette n'existe pas")
     pass
 
 
