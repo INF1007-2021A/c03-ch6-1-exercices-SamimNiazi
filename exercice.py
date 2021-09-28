@@ -42,13 +42,12 @@ def contains_doubles(items: list) -> bool:
 
 def best_grades(student_grades: dict) -> dict:
     # TODO: Retourner un dictionnaire contenant le nom de l'étudiant ayant la meilleure moyenne ainsi que sa moyenne
-    print (student_grades.values)
+    
     return 
 
 
 def frequence(sentence: str) -> dict:
     # TODO: Afficher les lettres les plus fréquentes
-
     #       Retourner le tableau de lettres
 
     return {}
